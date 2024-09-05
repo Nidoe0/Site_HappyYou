@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /privacy
+
+Sitemap: https://nidoe0.github.io/Site_HappyYou/sitemap.xml
