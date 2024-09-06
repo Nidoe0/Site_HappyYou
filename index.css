@@ -965,6 +965,23 @@ section{
         font-weight: 500;
        
     }
+    .container .wrapper{
+        width: 95vw;
+       z-index: -999;
+        overflow: hidden;
+      
+        border-radius: 10px;
+    }
+    .container .wrapper-holder{
+        display: grid;
+        grid-template-columns: repeat(8,100%);
+        height:10%;
+        width: 100%;
+        animation: slider 50s ease-in-out infinite ;
+        
+      
+        
+    }
 }
 .sitation{
     text-align: center;
@@ -1073,12 +1090,13 @@ background-size: cover;
 
                 .wrapper{
                     display: inline-block;
+
     
                 }
                 .container{
-                  
+                  position: relative;
                     width: 100%;
-                  
+                      height: 280px;
                     overflow: hidden;
                     margin: 0 auto;
                     padding: 0 10px;
@@ -1091,10 +1109,6 @@ background-size: cover;
                     font-size: 10px;
                     font-weight: 500;
                     width: 15%;
-                }
-                .container{
-        
-                 width: 95%;
                 }
                 .row{
                     background-color: #2a6f97aa;
@@ -1119,6 +1133,7 @@ background-size: cover;
                     padding-top: 50px;
                     font-weight: 500;
                     font-size: 25px;
+                    padding-top: -500px;
                 }
           
             }
