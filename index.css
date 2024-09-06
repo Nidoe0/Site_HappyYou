@@ -978,7 +978,7 @@ section{
 }
 .wrapper{
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1077,8 +1077,7 @@ background-size: cover;
                 }
                 .container{
                     display: inline-block;
-                    width: 100%;
-                    height: 80%;
+                    width: 50%;
                     overflow: hidden;
                     margin: 0 auto;
                     padding: 0 10px;
@@ -1094,8 +1093,9 @@ background-size: cover;
                 }
                 .container{
         
-                 width: 90%;
-                 border-radius: 10px;
+                 width: 100%;
+                 height: 200px;
+                 text-align: center;
                 }
                 .row{
                     background-color: #2a6f97aa;
@@ -1135,7 +1135,7 @@ background-size: cover;
                 justify-content: start;
                 text-align: center;
                 }
-                .containerS .wrapper{
+                .container .wrapper{
                     width: 80vw;
                    z-index: -999;
                     overflow: hidden;
@@ -1143,26 +1143,27 @@ background-size: cover;
                     margin: 2rem auto;
                     border-radius: 10px;
                 }
+              
             }
             @media (max-width:500px){
                 .foot1 span{
-                    font-size: 17px;
+                    font-size: 15px;
                    padding: 10px 0px;
                    font-weight: 500;
                    color: #ffffff;
                 }
                 .foot1 p{
-                    font-size: 12px;
+                    font-size: 11px;
                    padding: 10px 0px;
                   font-weight: 200;
                    color: #ffffffb8;
                 }
                 .foot1 img{
-                    width: 80px;
+                    width: 70px;
                     border-radius: 2px;
                 }
                 .foot2 span{
-                    font-size: 17px;
+                    font-size: 15px;
                     padding: 10px 0px;
                     font-weight: 500;
                     color: #ffffff;
@@ -1170,17 +1171,17 @@ background-size: cover;
                 .fa-square-facebook{
                     text-decoration: none;
                     color: #3b5998;
-                    font-size: 30px;
+                    font-size: 20px;
                 }
                 .fa-linkedin{
                     text-decoration: none;
                     color: #0077B5;
-                    font-size: 30px;
+                    font-size: 20px;
                 }
                 .fa-facebook-f{
                     text-decoration: none;
                     color: #3b5998;
-                    font-size: 30px;
+                    font-size: 20px;
                 }
                 .prt{
                     text-align: center;
@@ -1190,5 +1191,10 @@ background-size: cover;
                     align-items: center; 
                     padding: 10px;
                 }
+                .prt img{
+                    width: 40px;
+                    border-radius: 2px;
+                }
+            
             }
             
