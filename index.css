@@ -155,6 +155,13 @@ nav a:hover{
     .logo img{
         width: 50px;
     }
+    .back{
+        background-image: url(IMG/back2_n.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 }
 .btn:hover{
     transform: scale(1.1);
@@ -191,6 +198,28 @@ section{
 
 .content h2{
     color: rgb(255, 194, 137);
+}
+@media (max-width:500px){
+    .content h1{
+        font-size: 18px;
+        color: rgb(255, 194, 137);
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+    .content p{
+        font-size: 10px;
+        line-height: 1.4;
+        color: rgb(255, 255, 255);
+        margin: 5px 30px;
+    }
+    
+    .content h2{
+        color: rgb(255, 194, 137);
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
 }
 .fondatrice{
     background-color: #fff;
@@ -277,6 +306,25 @@ section{
     text-align: center;
     font-size: 45px;
     color: #f4690c;
+}
+@media (max-width:500px){
+    .one h1{
+        text-align: center;
+        font-size: 25px;
+        color: #2a6f97;
+        font-weight: 600;
+    }
+    .one p {
+        text-align: center;
+        text-align: justify;
+        padding-top: 25px;
+        font-size: 15px;
+        color: #000000;
+        font-weight: 400;
+    }
+    .two img{
+        width: 325px;
+    }
 }
 /*slider*/
 .blc{
@@ -390,6 +438,86 @@ section{
     }
 
     
+}
+@media (max-width:500px){
+    .offre h1{
+        text-align: center;
+        font-size: 25px;
+        color: #f4690c;
+        font-weight: 500;
+    }
+    .blc{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 10px;
+        padding: 0px 5px;
+    }
+    .blc1{
+      box-shadow: 0px 0px 3px black;
+       text-align: center;
+       border-radius: 5px;
+    }
+    .blc1 h2{
+        font-size: 9px;
+        color: #4f5d75;
+        font-weight: 600;
+        padding: 3px 5px;
+       
+    }
+    .blc1 img{
+       
+        border-radius:0px;
+        padding: 0px 0px;
+        width: 70px;
+    }
+    .blc2{
+        box-shadow: 0px 0px 3px black;
+        text-align: center;
+        border-radius: 5px;
+     }
+     .blc2 h2{
+        font-size: 10px;
+        color: #4f5d75;
+        font-weight: 600;
+        padding: 0px 3px;
+     }
+     .blc2 img{
+        border-radius:10px;
+        padding: 0px 0px;
+        width: 75px;
+    }
+     .blc3{
+        box-shadow: 0px 0px 3px black;
+        text-align: center;
+        border-radius: 5px;
+     }
+     .blc3 h2{
+        font-size: 10px;
+        color: #4f5d75;
+        font-weight: 600;
+        padding: 0px 4px;
+     }
+     .blc3 img{
+        border-radius:10px;
+        padding: 0px 0px;
+        width: 70px;
+    }
+     .blc4 {
+        box-shadow: 0px 0px 3px black;
+        text-align: center;
+        border-radius: 5px;
+     }
+     .blc4 h2{
+        font-size: 10px;
+        color: #4f5d75;
+        font-weight: 600;
+        padding: 0px 3px;
+     }
+     .blc4 img{
+        border-radius:10px;
+        padding: 0px 0px;
+        width: 70px;
+    }
 }
 .foot{
     display: grid;
@@ -828,6 +956,16 @@ section{
     }
 
 }
+@media (max-width:500px){
+    .frt h1{
+        text-align: center;
+        font-size: 18px;
+        color: #2a6f97;
+        padding: 10px ;
+        font-weight: 500;
+       
+    }
+}
 .sitation{
     text-align: center;
   padding: 40px;
@@ -931,3 +1069,124 @@ background-size: cover;
             background-position: center;
 background-size: cover;
             }
+            @media (max-width:500px){
+
+                .wrapper{
+                    display: inline-block;
+    
+                }
+                .container{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    margin: 0 auto;
+                    padding: 0 10px;
+                            
+                }
+                .description p{
+                    color: #ffffff;
+                    padding-top: 0px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    width: 45%;
+                }
+                .container{
+        
+                 width: 90%;
+                }
+                .row{
+                    background-color: #2a6f97aa;
+                }
+                .form2 p{
+                    padding: 0px 20px;
+                    text-align: justify;
+                    font-size: 15px;
+                    color: #000000;
+                    font-weight: 400;
+                }
+                .qui h1{
+                    text-align: center;
+                    font-size: 25px;
+                    color: #f4690c;
+                    padding: 20px 20px;
+                    font-weight: 500;
+                }
+                .sitation h1{
+                    color: #2d8cc4;
+                    z-index: 999;
+                    padding-top: 50px;
+                    font-weight: 500;
+                    font-size: 25px;
+                }
+           
+         
+    
+          
+            }
+            @media (max-width:500px){
+                .containerS{
+        
+                    height: 180px;
+                    display: flex;
+                flex-wrap: nowrap;
+                justify-content: start;
+                text-align: center;
+                }
+                .containerS .wrapper{
+                    width: 80vw;
+                   z-index: -999;
+                    overflow: hidden;
+                  
+                    margin: 2rem auto;
+                    border-radius: 10px;
+                }
+            }
+            @media (max-width:500px){
+                .foot1 span{
+                    font-size: 17px;
+                   padding: 10px 0px;
+                   font-weight: 500;
+                   color: #ffffff;
+                }
+                .foot1 p{
+                    font-size: 12px;
+                   padding: 10px 0px;
+                  font-weight: 200;
+                   color: #ffffffb8;
+                }
+                .foot1 img{
+                    width: 80px;
+                    border-radius: 2px;
+                }
+                .foot2 span{
+                    font-size: 17px;
+                    padding: 10px 0px;
+                    font-weight: 500;
+                    color: #ffffff;
+                }
+                .fa-square-facebook{
+                    text-decoration: none;
+                    color: #3b5998;
+                    font-size: 30px;
+                }
+                .fa-linkedin{
+                    text-decoration: none;
+                    color: #0077B5;
+                    font-size: 30px;
+                }
+                .fa-facebook-f{
+                    text-decoration: none;
+                    color: #3b5998;
+                    font-size: 30px;
+                }
+                .prt{
+                    text-align: center;
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    grid-gap: 10px;
+                    align-items: center; 
+                    padding: 10px;
+                }
+            }
+            
