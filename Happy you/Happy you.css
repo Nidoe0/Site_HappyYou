@@ -679,6 +679,10 @@ font-size: 18px;
     }
 }
 @media (max-width:500px){
+    .fonda img {
+        border-radius: 10px;
+        width: 200px;
+    }
         .bnv1 h1 {
             text-align: center;
             font-size: 25px;
