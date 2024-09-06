@@ -157,6 +157,66 @@ section{
     color: rgb(255, 255, 255);
     margin: 20px 30px;
 }
+@media (max-width:500px) {
+    nav a{
+        margin: 2px;
+        transition: .3s ease;
+        font-size: 13px;
+    }
+    header{
+        padding: 10px 5%;
+        transition: .3s ease;
+        background-color: #f8dccb;
+    } 
+    .btn{
+        font-size: 12px;
+    }
+    .btnu{
+        padding: 0 10px;
+        transition: .3s ease;
+     }
+     .content{
+        padding: 1px;
+        margin-top: 30px;
+    }
+    .logo{
+        padding: 0px 10px;
+        transition: .3s ease;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .back{
+        background-image: url(IMG/back2_n.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+@media (max-width:500px){
+    .content h1{
+        font-size: 40px;
+        color: rgb(255, 194, 137);
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    .content p{
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.4;
+        color: rgb(255, 255, 255);
+        margin: 10px 0px;
+    }
+    
+    .content h2{
+        color: rgb(255, 194, 137);
+        font-size: 17px;
+        font-weight: 400;
+    }
+    
+}
 
 .content h3{
     font-size: 19px;
@@ -555,7 +615,6 @@ font-size: 18px;
     .go-gr-2 p{
         font-size: 18px;
     }
-    .
   }
 
   @media screen and (max-width:960px){
@@ -618,6 +677,95 @@ font-size: 18px;
         color: #f4690c;
         font-weight: 500;
     }
+}
+@media (max-width:500px){
+        .bnv1 h1 {
+            text-align: center;
+            font-size: 25px;
+            color: #f4690c;
+            font-weight: 500;
+        }
+        .bvn b {
+            text-align: center;
+            font-size: 18px;
+            color: #2a6f97;
+            font-weight: 500;
+        }
+        .bvn p {
+            text-align: center;
+            text-align: justify;
+            padding-top: 20px;
+            font-size: 15px;
+            color: #000000;
+            font-weight: 400;
+        }
+        .bvn {
+            text-align: center;
+            padding: 20px 20px;
+        }
+        .fonda h2 {
+            color: #000000d2;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .hp p {
+            text-align: center;
+            text-align: justify;
+            padding-top: 20px;
+            font-size: 15px;
+            color: #000000;
+            font-weight: 400;
+        }
+       .hp b {
+    text-align: center;
+    color: #0077B5;
+    font-weight: 500;
+}
+.evn h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #f4690c;
+    font-weight: 500;
+}
+.slg h1 {
+    padding: 20px;
+    font-size: 25px;
+    color: #f4690c;
+    font-weight: 500;
+}
+.slg p {
+    padding: 20px 20px;
+    text-align: center;
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+.aloha img {
+    border-radius: 5px;
+    width: 300px;
+}
+.aloha {
+    display: inline-block;
+    grid-gap: 20px;
+    padding: 0px 20px;
+}
+.somme b {
+    font-size: 20px;
+    color: #2a6f97;
+    font-weight: 500;
+}
+.somme p {
+    padding: 10px;
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+
+    
 }
 
 .body{
@@ -699,4 +847,68 @@ font-size: 18px;
 }
 .card:hover .back{
     transform: perspective(600px) rotateY(360deg);
+}
+@media (max-width:500px){
+   
+    .foot1 span{
+        font-size: 15px;
+       padding: 10px 0px;
+       font-weight: 500;
+       color: #ffffff;
+    }
+    .foot1 p{
+        font-size: 11px;
+       padding: 10px 0px;
+      font-weight: 200;
+       color: #ffffffb8;
+    }
+    .foot1 img{
+        width: 70px;
+        border-radius: 2px;
+    }
+    .foot2 span{
+        font-size: 15px;
+        padding: 10px 0px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .fa-square-facebook{
+        text-decoration: none;
+        color: #3b5998;
+        font-size: 20px;
+    }
+    .fa-linkedin{
+        text-decoration: none;
+        color: #0077B5;
+        font-size: 20px;
+    }
+    .fa-facebook-f{
+        text-decoration: none;
+        color: #3b5998;
+        font-size: 20px;
+    }
+    .prt{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
+        align-items: center; 
+        padding: 10px;
+    }
+    .prt img{
+        width: 37px;
+        border-radius: 2px;
+    }
+    .foot3 span{
+        font-size: 17px;
+        padding: 10px 0px;
+        font-weight: 500;
+        color: #ffffffd3;
+    }
+    .foot3 p{
+        font-size: 12px;
+        color: #ffffffd3;
+        padding: 10px 0px;
+        font-weight: 200;
+    }
 }
