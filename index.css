@@ -126,8 +126,35 @@ nav a:hover{
         text-align: center;
      }
 }
-@media (max-width:886px) {
-    
+@media (max-width:500px) {
+    nav a{
+        margin: 2px;
+        transition: .3s ease;
+        font-size: 13px;
+    }
+    header{
+        padding: 10px 5%;
+        transition: .3s ease;
+        background-color: #f8dccb;
+    } 
+    .btn{
+        font-size: 12px;
+    }
+    .btnu{
+        padding: 0 10px;
+        transition: .3s ease;
+     }
+     .content{
+        padding: 1px;
+        margin-top: 30px;
+    }
+    .logo{
+        padding: 0px 10px;
+        transition: .3s ease;
+    }
+    .logo img{
+        width: 50px;
+    }
 }
 .btn:hover{
     transform: scale(1.1);
