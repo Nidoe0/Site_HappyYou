@@ -1093,13 +1093,12 @@ background-size: cover;
 
                 .wrapper{
                     display: inline-block;
-                    height: 55vh;
+                    height: 70vh;
     
                 }
                 .container{
                   position: relative;
                     width: 100%;
-                      height: 280px;
                     overflow: hidden;
                     margin: 0 auto;
                     padding: 0 10px;
