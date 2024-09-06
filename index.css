@@ -965,6 +965,9 @@ section{
         font-weight: 500;
        
     }
+    .img-slider{
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0);   
+    }
     .container .wrapper{
         width: 95vw;
        z-index: -999;
@@ -1090,7 +1093,7 @@ background-size: cover;
 
                 .wrapper{
                     display: inline-block;
-
+                    height: 55vh;
     
                 }
                 .container{
