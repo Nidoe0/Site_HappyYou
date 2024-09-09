@@ -31,7 +31,7 @@ header{
 
 }
 header .logo img{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 nav a{
     font-size: 18px;
@@ -623,7 +623,7 @@ padding: 30px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 20px;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     border-radius: 10px;
 }
@@ -912,7 +912,7 @@ padding: 30px;
     text-align: center;
     text-align: justify;
     padding-top: 10px;
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
     font-weight: 400;
 }

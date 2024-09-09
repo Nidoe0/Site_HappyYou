@@ -31,7 +31,7 @@ header{
 
 }
 header .logo img{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 nav a{
     font-size: 18px;
@@ -140,12 +140,19 @@ section{
     position: relative;
 
 }
+.content h3{
+    font-size: 50px;
+    color: rgb(255, 194, 137);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
 .Intro{
     background-color: rgba(0, 0, 0, 0.474);
     width: 100%;
 }
 .content h1{
-    font-size: 65px;
+    font-size: 60px;
     color: rgb(255, 194, 137);
     text-transform: capitalize;
     letter-spacing: 1px;
