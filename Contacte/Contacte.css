@@ -148,7 +148,7 @@ section{
     font-weight: 500;
 }
 .Intro{
-    background-color: rgba(0, 0, 0, 0.474);
+    background-color: rgba(0, 0, 0, 0.542);
     width: 100%;
 }
 .content h1{
@@ -274,7 +274,12 @@ section{
     border-radius: 20px;
     margin-top: 20px;
 }
-
+.foot22{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    padding: 20px;
+}
 .foot3{
     background-color: #f6f6f618;
     text-align: center;
@@ -803,7 +808,6 @@ padding: 40px 100px;
     .foot3 p{
         font-size: 12px;
         color: #ffffffd3;
-        padding: 10px 0px;
         font-weight: 200;
     }
     .specialisation h1 {

@@ -140,7 +140,7 @@ section{
 
 }
 .Intro{
-    background-color: rgba(0, 0, 0, 0.474);
+    background-color: rgba(0, 0, 0, 0.542);
     width: 100%;
 }
 .content h1{
@@ -303,6 +303,12 @@ section{
     color: #ffffffd3;
     padding: 20px 0px;
     font-weight: 200;
+}
+.foot22{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    padding: 20px;
 }
 .fa-square-facebook{
     text-decoration: none;
@@ -1109,7 +1115,6 @@ b{
     .foot3 p{
         font-size: 12px;
         color: #ffffffd3;
-        padding: 10px 0px;
         font-weight: 200;
     }
 }

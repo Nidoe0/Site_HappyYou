@@ -179,7 +179,7 @@ section{
 
 }
 .Intro{
-    background-color: rgba(0, 0, 0, 0.474);
+    background-color: rgba(0, 0, 0, 0.601);
     width: 100%;
 }
 .content h1{
@@ -574,7 +574,12 @@ section{
     font-weight: 400;
     color: #ffffff;
 }
-
+.foot22{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    padding: 20px;
+}
 .prt{
     text-align: center;
     display: grid;
@@ -1210,14 +1215,12 @@ background-size: cover;
                 }
                 .foot3 span{
                     font-size: 17px;
-                    padding: 10px 0px;
                     font-weight: 500;
                     color: #ffffffd3;
                 }
                 .foot3 p{
                     font-size: 12px;
                     color: #ffffffd3;
-                    padding: 10px 0px;
                     font-weight: 200;
                 }
             }

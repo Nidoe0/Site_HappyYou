@@ -140,7 +140,7 @@ section{
 
 }
 .Intro{
-    background-color: rgba(0, 0, 0, 0.474);
+    background-color: rgba(0, 0, 0, 0.542);
     width: 100%;
 }
 .content h1{
@@ -273,6 +273,12 @@ section{
     padding: 10px 0px;
     font-weight: 600;
     color: #ffffff;
+}
+.foot22{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    padding: 20px;
 }
 .foot2 b{
     font-size: 20px;
@@ -911,7 +917,6 @@ font-size: 18px;
     .foot3 p{
         font-size: 12px;
         color: #ffffffd3;
-        padding: 10px 0px;
         font-weight: 200;
     }
 }
