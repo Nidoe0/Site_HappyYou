@@ -586,8 +586,10 @@ section{
         border-radius: 20px;
     }
     .choix2{
-        background-color: #0000000a;
         border-radius: 20px;
+    }
+    .choix2 img{
+        border-radius: 10px;
     }
 .tchoix{
    text-align: center;
@@ -748,6 +750,12 @@ padding: 40px 100px;
     font-weight: 700;
 }
 @media (max-width:500px){
+    .choix2 img{
+        border-radius: 5px;
+        width: 250px;
+        margin: 0px;
+        padding: 0px;
+    }
    
     .foot1 span{
         font-size: 15px;
