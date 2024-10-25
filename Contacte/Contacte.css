@@ -583,6 +583,9 @@ section{
         background: linear-gradient(#1a465f7f,#743c1688);
         padding: 20px;
         border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     .choix2{
         border-radius: 20px;
